@@ -1,0 +1,7 @@
+import random
+
+def rand_num_generator(var_name):
+	x = random.randint(6,16) # generating  random number  b/w 6 & 15
+	print var_name+ " "+str(x)  # printing the name and random number 
+
+rand_num_generator('Ayaz') # giving the name as parameter
